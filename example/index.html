@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dynamic Scroll Example</title>
+
+    <style>
+      * {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        display: flex;
+        font-size: 115%;
+        align-items: center;
+        flex-direction: column;
+        font-family: sans-serif;
+      }
+
+      #my-video {
+        margin: 500px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Testing Dynamic Scroll</h1>
+    <p>Roll down or <a href="#my-video">go to video.</a></p>
+
+    <video id="my-video" controls>
+      <source src="./multimedia.mp4" />
+    </video>
+
+    <script src="../DynamicPlayer.js"></script>
+    <script>
+      const multimediaOptions = {
+        selector: '#my-video',
+        playOnCoords: { x: 0, y: 600 }
+      };
+
+      const myVideo = new DynamicPlayer(multimediaOptions);
+      myVideo.init();
+    </script>
+  </body>
+</html>

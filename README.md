@@ -2,7 +2,7 @@
 
 A small library to play multimedia (video/audio) on scroll.
 
----
+## Checkout the demo [here](https://dynamic-scroll.netlify.com/example/)
 
 ## Getting started
 
@@ -47,7 +47,7 @@ Dynamic Player works in all moderns browsers. It's built using ES6 classes, so i
 
 ## TODO
 
-- [ ] Add demo
+- [x] Add demo
 - [ ] Minified version
 - [ ] Internet Explorer support
 - [ ] Send an array of multimedia objects as contructor
