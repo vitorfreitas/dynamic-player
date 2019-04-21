@@ -43,8 +43,6 @@ myVideo.init();
 
 ## Browser compatibility
 
----
-
 Dynamic Player works in all moderns browsers. It's built using ES6 classes, so it doesn't work on IE (yet).
 
 ## TODO
@@ -57,7 +55,5 @@ Dynamic Player works in all moderns browsers. It's built using ES6 classes, so i
 - [ ] NPM package
 
 ## License
-
----
 
 The code is available under [MIT License](https://github.com/vitorfreitas/dynamic-player/blob/master/LICENSE).
