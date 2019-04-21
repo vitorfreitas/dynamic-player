@@ -49,14 +49,12 @@ Dynamic Player works in all moderns browsers. It's built using ES6 classes, so i
 
 ## TODO
 
----
-
-[ ] Add demo
-[ ] Minified version
-[ ] Internet Explorer support
-[ ] Send an array of multimedia objects as contructor
-[ ] CDN link
-[ ] NPM package
+- [ ] Add demo
+- [ ] Minified version
+- [ ] Internet Explorer support
+- [ ] Send an array of multimedia objects as contructor
+- [ ] CDN link
+- [ ] NPM package
 
 ## License
 
